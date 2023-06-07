@@ -39,9 +39,10 @@ Aggiungere una select accanto al bottone di generazione, che fornisca una scelta
   - Stampo all'interno della cella il numero passato come parametro
   - Restituisco l'elemento completo
 - Recupero gli elementi dal DOM
-- Stabilisco il numero di righe e di colonne della griglia
-- Calcolo le celle totali moltiplicando le righe per le colonne
 - **QUANDO** l'utente clicca sul bottone
+  - Recupero il valore della difficoltà
+  - Stabilisco il numero di righe e di colonne della griglia
+  - Calcolo le celle totali moltiplicando le righe per le colonne
   - **PER TANTE VOLTE** quante sono le celle totali
     - Invoco la funzione che crea una cella passandole l'indice corrente come argomento e stampo il risultato in pagina
 - **QUANDO** l'utente clicca su una cella

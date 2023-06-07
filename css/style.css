@@ -23,11 +23,17 @@ main
 {
     background-color:mediumspringgreen;
     padding:50px 0;
+    height:840px;
+}
+
+#difficulty
+{
+    width:150px;
 }
 
 #play
 {
-    padding: 2px 20px;
+    padding:0 20px;
 }
 
 #grid
@@ -35,20 +41,36 @@ main
     margin:auto;
     display:flex;
     flex-wrap:wrap;
-    height:800px;
+    height:100%;
     width:800px;
 }
 
 .cell
 {
-    flex-basis:10%;
-    height:10%;
     border:1px solid black;
     display:flex;
     align-items:center;
     justify-content:center;
     cursor: pointer;
 }   
+
+.cell.cell-10
+{
+    flex-basis:10%;
+    height:10%;
+}
+
+.cell.cell-9
+{
+    flex-basis:calc(100% / 9);
+    height:calc(100% / 9);
+}
+
+.cell.cell-7
+{
+    flex-basis:calc(100% / 7);
+    height:calc(100% / 7);
+}
 
 .bg-blue
 {
