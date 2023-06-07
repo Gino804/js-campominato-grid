@@ -1,0 +1,50 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body
+{
+    font-family: sans-serif;
+}
+
+header
+{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    height:100px;
+    padding:0 20px;
+}
+
+main
+{
+    background-color:mediumspringgreen;
+    padding:50px 0;
+}
+
+#play
+{
+    padding: 2px 20px;
+}
+
+#grid
+{
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    height:800px;
+    width:800px;
+}
+
+.cell
+{
+    flex-basis:10%;
+    height:10%;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}   
